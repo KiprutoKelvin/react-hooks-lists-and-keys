@@ -1,7 +1,7 @@
 import React from "react";
 import ColorList from "./ColorList";
 
-function App() {
+export const App= ()=> {
   return (
     <div>
       <ColorList />
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+
